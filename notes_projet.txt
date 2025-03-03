@@ -1,0 +1,3 @@
+kez97460
+
+neural_network avec jupyter notebook et firmware et pas d'adversarial
