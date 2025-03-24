@@ -13,28 +13,6 @@ The model can predict five possible outcomes:
 - PWF: Power Failure
 - OSF: Overstrain Failure
 
-## Repository Structure
-predictive_maintenance/
-│
-├── data/
-│   └── ai4i2020.csv            # Main dataset file
-│
-├── neural_network/
-│   ├── TP_IA_EMBARQUEE.ipynb   # Jupyter notebook with complete analysis and model development
-│   ├── balanced_model.tflite   # TFLite model trained with balanced data
-│   ├── imbalanced_model.tflite # TFLite model trained without balancing
-│   ├── X_valid_mini.npy        # Validation input data for testing on device
-│   └── Y_valid_mini.npy        # Validation labels for testing on device
-│
-├── cubeIDE/                    # STM32CubeIDE project files for embedded deployment
-│   ├── Core/                   # Core application code
-│   ├── Drivers/                # STM32 HAL drivers
-│   ├── Middlewares/            # X-CUBE-AI middleware
-│   ├── .project                # CubeIDE project file
-│   └── ...                     # Other project files
-│
-└── README.md                   # This file
-Copier
 ## Data Description
 
 The AI4I 2020 Predictive Maintenance Dataset contains 10,000 instances of industrial machine operational data. Each instance represents the operating condition of a machine and includes:
